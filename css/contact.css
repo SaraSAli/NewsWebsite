@@ -1,0 +1,70 @@
+  #contact_form h1 {
+    text-align: center;
+    color: rgb(37, 37, 37);
+  }
+  body {
+    background-color: #141313;
+    background-image: linear-gradient(19deg, #141313 0%, #4d4dde 100%);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    opacity: 0.8;}
+    
+  #contact_form {
+    width: 37%;
+    margin: 100px auto;
+    padding-bottom: 30px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    background: rgba(236, 236, 236, 0.87);
+    border-radius:15px  ;
+    -webkit-border-radius:15px  ;
+    -moz-border-radius:15px  ;
+    -ms-border-radius:15px  ;
+    -o-border-radius:15px  ;
+}
+  #contact_form input {
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    font-size: 1.1em;
+    padding: 6px;
+    font-size: .9em;
+    border: none;
+  }
+
+  .form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  
+  #contact_form textarea {
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    font-size: 1.1em;
+    padding: 6px;
+    font-size: .9em;
+    border: none;
+
+  }
+
+
+  button ,   #send {
+        cursor: pointer;
+        border-radius: 15px;
+        border:none;
+        padding:5px;
+        margin: 5px 10%;
+        height: 35px;
+        width: 80%;
+        
+}
+
+
+a{
+  text-decoration: none;
+}
